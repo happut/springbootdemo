@@ -24,6 +24,6 @@ public class HelloController {
 
     @RequestMapping("/hello")
     public String index() {
-        return restTemplate.getForObject("http://hello-service-provider/hello", String.class);
+        return restTemplate.getForObject("http://HELLO-SERVICE-PROVIDER/hello", String.class);
     }
 }
